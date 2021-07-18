@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Card, Row } from 'react-bootstrap'
-import Button from 'react-bootstrap/Button'
+
 import '../cardsStyle.css'
 
 class User extends React.Component {
