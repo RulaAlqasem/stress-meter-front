@@ -5,8 +5,8 @@ import User from './User';
 
 import io from 'socket.io-client';
 import Navbarnav from './Navbarnav';
-const SERVER_URL = process.env.SERVER_URL || 'localhost:5000/';
-const socket = io(SERVER_URL, { transports: ['websocket'] });
+
+const socket = io('https://testiiing-server.herokuapp.com', { transports: ['websocket'] });
 function Main(props) {
   return (
     <>
